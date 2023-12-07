@@ -1,0 +1,51 @@
+.burgerBtn {
+    display: none;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 32px;
+    right: 20px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.burgerBtn span {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    left: 0px;
+    transition: all .5s ease 0s;
+}
+
+.burgerBtn span:first-child {
+    top: 2px;
+}
+
+.burgerBtn span:last-child {
+    bottom: 1px;
+}
+
+.burgerBtn span:nth-child(2) {
+    top: 9px;
+}
+
+.burgerOpened .burgerBtn span:first-child {
+    transform: translateY(7px) rotate(45deg);
+}
+
+.burgerOpened .burgerBtn span:last-child {
+    transform: translateY(-7px) rotate(-45deg);
+}
+
+.burgerOpened .burgerBtn span:nth-child(2) {
+    scale: 0;
+}
+
+@media screen and (max-width: 450px) {
+
+    .burgerBtn{
+        display: block;
+    }
+
+}

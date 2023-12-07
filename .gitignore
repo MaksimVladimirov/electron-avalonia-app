@@ -13,6 +13,9 @@ dist-ssr
 dist-electron
 release
 *.local
+docker-compose-postgresql.yml
+Instruction.txt
+testapp.tar
 
 # Editor directories and files
 .vscode/*

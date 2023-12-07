@@ -1,0 +1,8 @@
+.tasksPage {
+    width: 100%;
+}
+
+.tasksPage__list {
+    max-width: 1040px;
+    margin: 0 auto;
+}

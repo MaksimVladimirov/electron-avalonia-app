@@ -1,0 +1,19 @@
+.openModalWindowDeleteСategoryBtn {
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.openModalWindowDeleteСategoryBtn img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 650px) {
+    .openModalWindowDeleteСategoryBtn {
+        width: 18px;
+        height: 18px;
+    }
+}

@@ -1,0 +1,16 @@
+.nonValidName {
+    color: red;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 650px) {
+    .nonValidName {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .nonValidName {
+        font-size: 8px;
+    }
+}

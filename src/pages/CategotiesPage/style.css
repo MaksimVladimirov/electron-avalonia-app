@@ -1,0 +1,8 @@
+.categotiesPage {
+    width: 100%;
+}
+
+.categotiesPage__list {
+    max-width: 1040px;
+    margin: 0 auto;
+}

@@ -1,0 +1,1 @@
+export { trimLine } from './commonUtils';

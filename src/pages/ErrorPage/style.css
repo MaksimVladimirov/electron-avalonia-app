@@ -1,0 +1,18 @@
+.errorPage {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.errorPage__img {
+    flex : 0 0 auto;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.errorPage__img img {
+    width: 100%;
+    object-fit: cover;
+}

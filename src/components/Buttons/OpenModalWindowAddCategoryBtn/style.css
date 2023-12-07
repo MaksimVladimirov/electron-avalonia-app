@@ -1,0 +1,14 @@
+.openModalWindowAddCategoryBtn {
+    flex: 0 0 202px;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 650px) {
+    .openModalWindowAddCategoryBtn {
+        flex: 0 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

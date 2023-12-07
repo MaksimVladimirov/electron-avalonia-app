@@ -1,0 +1,11 @@
+.cancelBtn {
+    border: 2px solid #3F72AF;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: inherit;
+    color: #3F72AF;
+    cursor: pointer;
+    font-size: 20px;
+}

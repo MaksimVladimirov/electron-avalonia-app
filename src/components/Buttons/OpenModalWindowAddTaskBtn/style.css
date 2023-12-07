@@ -1,0 +1,14 @@
+.openModalWindowAddTaskBtn {
+    flex: 0 0 165px;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 650px) {
+    .openModalWindowAddTaskBtn {
+        flex: 0 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,48 @@
+.modal__container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(63,114,175, 0.4);
+    z-index: 100;
+}
+
+.modal__content {
+    max-width: 800px;
+    width: 100%;
+    background-color: #DBE2EF;
+    padding: 32px 24px 24px 24px;
+    position: absolute;
+    border-radius: 4px;
+}
+
+.modal__text {
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #101828;
+    margin-bottom: 32px;
+}
+
+.modal__content .closeCrossBtn {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+}
+
+@media screen and (max-width: 450px) {
+    .modal__content {
+        padding: 24px 16px 16px 16px;
+    }
+
+    .modal__content .closeCrossBtn {
+        top: 24px;
+        right: 16px;
+    }
+}

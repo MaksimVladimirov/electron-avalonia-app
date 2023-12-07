@@ -1,0 +1,1 @@
+export { dataService } from './dataService';

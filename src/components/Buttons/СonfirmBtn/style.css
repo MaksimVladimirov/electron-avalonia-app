@@ -1,0 +1,10 @@
+.confirmBtn {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3F72AF;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}

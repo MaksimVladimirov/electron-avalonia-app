@@ -1,4 +1,4 @@
-import { app, BrowserWindow } from 'electron'
+import { app, BrowserWindow, session } from 'electron'
 import path from 'node:path'
 
 // The built directory structure
@@ -31,6 +31,15 @@ function createWindow() {
     win.webContents.on('did-finish-load', () => {
         win?.webContents.send('main-process-message', (new Date).toLocaleString())
     })
+
+    session.defaultSession.webRequest.onHeadersReceived((details, callback) => { 
+        callback({ 
+            responseHeaders: { 
+                ...details.responseHeaders, 
+                'Access-Control-Allow-Origin': 'http://localhost:5173', 
+            }, 
+        }); 
+    });
 
     if (VITE_DEV_SERVER_URL) {
         win.loadURL(VITE_DEV_SERVER_URL)

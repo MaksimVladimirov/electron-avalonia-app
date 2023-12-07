@@ -1,0 +1,27 @@
+.category {
+    padding: 16px;
+    border-bottom: 2px solid #3F72AF;
+}
+.category__header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 12px;
+}
+
+.category__header-title {
+    font-weight: 500;
+    line-height: 20px;
+    color: black;
+}
+
+.category__description {
+    line-height: 20px;
+}
+
+.category__buttons {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
