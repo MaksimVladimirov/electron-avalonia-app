@@ -3,11 +3,11 @@ import { IOpenModalWindowAddCategoryBtn } from './OpenModalWindowAddCategoryBtnP
 import { FC } from 'react';
 
 const OpenModalWindowAddCategoryBtn: FC<IOpenModalWindowAddCategoryBtn> = ({ openModalHandler }) => {
-  return (
-    <div className='openModalWindowAddCategoryBtn' onClick={openModalHandler}>
-      Добавить категорию
-    </div>
-  );
+    return (
+        <div className='openModalWindowAddCategoryBtn' onClick={openModalHandler}>
+            Добавить категорию
+        </div>
+    );
 };
 
 export default OpenModalWindowAddCategoryBtn;

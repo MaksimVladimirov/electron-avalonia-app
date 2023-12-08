@@ -4,11 +4,11 @@ import { IOpenModalWindowDeleteTaskBtn } from './OpenModalWindowDeleteTaskBtnPro
 import trashCartIcon from '../../../images/icons/TrashCartIcon.svg';
 
 const OpenModalWindowDeleteTaskBtn: FC<IOpenModalWindowDeleteTaskBtn> = ({ openModalHandler }) => {
-  return (
-    <div className='OpenModalWindowDeleteTaskBtn' onClick={openModalHandler}>
-      <img src={trashCartIcon} alt='trashCartIcon' />
-    </div>
-  );
+    return (
+        <div className='OpenModalWindowDeleteTaskBtn' onClick={openModalHandler}>
+            <img src={trashCartIcon} alt='trashCartIcon' />
+        </div>
+    );
 };
 
 export default OpenModalWindowDeleteTaskBtn;

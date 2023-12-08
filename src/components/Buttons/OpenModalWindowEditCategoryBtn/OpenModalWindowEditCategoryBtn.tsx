@@ -4,11 +4,11 @@ import './style.css';
 import { IOpenModalWindowEditCategoryBtnProps } from './OpenModalWindowEditCategoryBtnProps';
 
 const OpenModalWindowEditCategoryBtn: FC<IOpenModalWindowEditCategoryBtnProps> = ({ openModalHandler }) => {
-  return (
-    <div className='openModalWindowEditCategoryBtn' onClick={openModalHandler}>
-      <img src={pencilIcon} alt='pencilIcon' />
-    </div>
-  );
+    return (
+        <div className='openModalWindowEditCategoryBtn' onClick={openModalHandler}>
+            <img src={pencilIcon} alt='pencilIcon' />
+        </div>
+    );
 };
 
 export default OpenModalWindowEditCategoryBtn;
